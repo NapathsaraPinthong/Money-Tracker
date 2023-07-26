@@ -1,0 +1,27 @@
+.balance {
+    font-size: 30px;
+    margin: 2rem 1rem;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+.total {
+    display: flex;
+    margin: 0 1rem;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+.total p {
+    border: 3px solid #3c3c3c;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+.total p span {
+    font-weight: 500;
+}

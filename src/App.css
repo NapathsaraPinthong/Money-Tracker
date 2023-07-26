@@ -1,38 +1,51 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 400px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #3c3c3c;
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu {
+  margin: 1.5rem;
+  border-bottom: 3px solid #3c3c3c;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.menu li {
+  list-style-type: none;
+  width: 50%;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.menu li a {
+  color: #3c3c3c;
+  text-decoration: none;
+  padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu li:is(:hover, :focus){
+  background-color: #3c3c3c;
+}
+
+.menu li:is(:hover, :focus) a {
+  color: #fff;
 }

@@ -1,0 +1,24 @@
+.item {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    color: #333;
+}
+
+.item span {
+    font-weight: 600;
+}
+
+.income .item {
+    border-right: 5px solid green;
+}
+
+.expense .item {
+    border-right: 5px solid red;
+}
